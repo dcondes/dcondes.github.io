@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Monserrat:400,700);
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body{
   color:#555;
   margin: 0;
 
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 #header{
 background-color: #1abc9c;
@@ -68,13 +68,9 @@ a:hover{
   padding: 30px 0;
 }
 .post-author img{
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   vertical-align: middle;
-}
-.post-author img,
-.about-author img {
-  border-radius: 50%;
 }
 .post-author span {
   margin-left: 16px;
@@ -95,6 +91,10 @@ p {
 }
 .about{
   text-align: center;
+}
+.post-author img,
+.about-author img {
+  border-radius: 50%;
 }
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
